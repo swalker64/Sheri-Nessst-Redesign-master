@@ -9,7 +9,6 @@
 	<link href="favicon.ico" rel="icon" type="image/x-icon" />
 	
 	<link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/gallery.css" />	
 	<link rel="stylesheet" href="css/styles.css" />
 	
 </head>
@@ -35,8 +34,31 @@
 		</header>
     	
     	<article>
-			<p>
-				<a href="http://benschwarz.github.io/gallery-css/">CSS 3 Gallery will go here. </a></p>
+        <!--Start of our gallery-->
+        <div class="gallery autoplay items-3">
+          <div id="item-1" class="control-operator"></div>
+          <div id="item-2" class="control-operator"></div>
+          <div id="item-3" class="control-operator"></div>
+        
+          <figure class="item">
+            <h1>1</h1>
+          </figure>
+        
+          <figure class="item">
+            <h1>2</h1>
+          </figure>
+        
+          <figure class="item">
+            <h1>3</h1>
+          </figure>
+        
+          <div class="controls">
+            <a href="#item-1" class="control-button">•</a>
+            <a href="#item-2" class="control-button">•</a>
+            <a href="#item-3" class="control-button">•</a>
+          </div>
+        </div>
+        <!--end of our gallery-->
 	    </article>		
     
     </div><!-- end .container -->	
